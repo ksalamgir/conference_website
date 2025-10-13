@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1st International Conference on ??? Information Technology (IEFIT 2026)</title>
+  <meta name="description" content="IEFIT 2026 — International conference on Frontiers of Information Technology. June 15-16, 2026 — Dubai/Pakistan.">
+  <style>
+    :root{--accent:#0b5ed7;--muted:#666;--maxw:1100px}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#222; line-height:1.5}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:64px;height:64px;background:linear-gradient(135deg,#0b5ed7,#6fb1ff);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    nav a{margin-left:14px;text-decoration:none;color:var(--muted);font-weight:600}
+    .hero{background:#f5f9ff;border-radius:12px;padding:28px;margin:18px 0;display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:center}
+    .hero h1{margin:0;font-size:20px}
+    .hero .when{color:var(--accent);font-weight:700;margin-top:8px}
+    .cta{display:flex;gap:10px;margin-top:14px}
+    .btn{background:var(--accent);color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
+    .btn.secondary{background:#fff;color:var(--accent);border:2px solid var(--accent)}
+
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:24px}
+    .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(20,30,60,0.06)}
+
+    h2{margin-top:0}
+    .tracks{display:flex;flex-wrap:wrap;gap:10px}
+    .track{background:#f3f7ff;padding:10px 12px;border-radius:8px;font-weight:700}
+
+    .speakers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .speaker{padding:12px;border-radius:8px;background:#fff;text-align:center}
+    .speaker img{width:100%;height:160px;object-fit:cover;border-radius:6px}
+    .schedule table{width:100%;border-collapse:collapse}
+    .schedule th,.schedule td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+
+    form input,form textarea,form select{width:100%;padding:10px;margin:6px 0 12px;border-radius:6px;border:1px solid #ddd}
+    footer{margin-top:28px;padding:18px 0;color:var(--muted);font-size:14px;text-align:center}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      .speakers{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:520px){
+      .speakers{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">FIT<br>25</div>
+        <div>
+          <div style="font-weight:800">22nd International Conference on Frontiers of Information Technology</div>
+          <div style="color:var(--muted);font-size:13px">15–16 December 2025 • Islamabad, Pakistan</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#speakers">Speakers</a>
+        <a href="#program">Program</a>
+        <a href="#register">Register</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>FIT 2025 — Frontiers of Information Technology</h1>
+        <p style="color:var(--muted)">A premier forum for presentation and exchange of innovative ideas in Information and Communication Technologies. Organized by COMSATS University, Islamabad.</p>
+        <div class="when">15–16 December 2025 — COMSTECH Secretariat, Islamabad</div>
+        <div class="cta">
+          <a class="btn" href="#register">Register Now</a>
+          <a class="btn secondary" href="#cfp">Call for Papers</a>
+        </div>
+      </div>
+
+      <aside style="padding:8px">
+        <div class="card" style="text-align:center">
+          <strong>Important Dates</strong>
+          <ul style="list-style:none;padding:0;margin:12px 0;color:var(--muted)">
+            <li>Paper Submission: <strong>Aug 16, 2025</strong></li>
+            <li>Notification: <strong>Oct 30, 2025</strong></li>
+            <li>Camera Ready: <strong>Nov 15, 2025</strong></li>
+            <li>Conference: <strong>Dec 15–16, 2025</strong></li>
+          </ul>
+          <a class="btn" href="#cfp">Submit Paper</a>
+        </div>
+      </aside>
+    </section>
+
+    <div class="grid">
+      <main>
+        <section id="about" class="card">
+          <h2>About the Conference</h2>
+          <p>FIT is a long-running international conference focusing on recent advances in computer science, engineering, and related fields. FIT provides a forum for researchers, practitioners, and students to share ideas, network, and explore future research directions.</p>
+          <p>Topics include—but are not limited to—NLP & Generative AI, Machine Learning, Deep Learning, Data Science, Computer Vision, Cyber Security, Cloud & HPC, Networks, Remote Sensing, and Water Informatics.</p>
+        </section>
+
+        <section id="cfp" class="card" style="margin-top:16px">
+          <h2>Call for Papers</h2>
+          <p>Authors are invited to submit original, previously unpublished papers (up to 6 pages) in IEEE double-column format. Submissions should be in PDF and will be handled electronically through the conference submission system.</p>
+          <p><strong>Format:</strong> IEEE conference template. <strong>Contact:</strong> fit@comsats.edu.pk</p>
+          <a class="btn" href="#" style="display:inline-block;margin-top:8px">Online Submission</a>
+        </section>
+
+        <section id="speakers" class="card" style="margin-top:16px">
+          <h2>Speakers</h2>
+          <div class="speakers">
+            <div class="speaker">
+              <img src="https://via.placeholder.com/400x240?text=Keynote+1" alt="Speaker 1">
+              <h4>Prof. A. Keynote</h4>
+              <div style="color:var(--muted);font-size:13px">University / Organization</div>
+            </div>
+            <div class="speaker">
+              <img src="https://via.placeholder.com/400x240?text=Keynote+2" alt="Speaker 2">
+              <h4>Dr. B. Speaker</h4>
+              <div style="color:var(--muted);font-size:13px">Research Lab</div>
+            </div>
+            <div class="speaker">
+              <img src="https://via.placeholder.com/400x240?text=Invited+Speaker" alt="Speaker 3">
+              <h4>Dr. C. Invited</h4>
+              <div style="color:var(--muted);font-size:13px">Industry</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="program" class="card schedule" style="margin-top:16px">
+          <h2>Program (Sample)</h2>
+          <table>
+            <thead>
+              <tr><th>Time</th><th>Session</th><th>Details</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>09:00–09:30</td><td>Registration & Coffee</td><td></td></tr>
+              <tr><td>09:30–10:30</td><td>Opening & Keynote</td><td>Keynote Speaker — Topic</td></tr>
+              <tr><td>11:00–12:30</td><td>Technical Session I</td><td>Oral Presentations</td></tr>
+              <tr><td>14:00–15:30</td><td>Technical Session II</td><td>Workshops / Tutorials</td></tr>
+            </tbody>
+          </table>
+          <p style="color:var(--muted);margin-top:8px">Full program will be published closer to the event.</p>
+        </section>
+
+        <section id="venue" class="card" style="margin-top:16px">
+          <h2>Venue & Travel</h2>
+          <p><strong>COMSTECH Secretariat</strong>, 33-Constitution Avenue, G-5/2, Islamabad.</p>
+          <p style="color:var(--muted)">Nearest hotel recommendations, travel tips, and visa information will be added here.</p>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3>Tracks</h3>
+          <div class="tracks">
+            <div class="track">Natural Language Processing & Generative AI</div>
+            <div class="track">Machine Learning</div>
+            <div class="track">Deep Learning</div>
+            <div class="track">Data Science</div>
+            <div class="track">Computer Vision</div>
+            <div class="track">Cyber Security</div>
+            <div class="track">Cloud & HPC</div>
+            <div class="track">Networks</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Sponsors</h3>
+          <p style="color:var(--muted)">Technical Co-Sponsors & Financial Sponsors logos appear here. Example: IEEE, COMSATS University.</p>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Gallery</h3>
+          <img src="https://via.placeholder.com/300x160?text=Gallery+1" style="width:100%;border-radius:6px;margin-bottom:8px">
+          <img src="https://via.placeholder.com/300x160?text=Gallery+2" style="width:100%;border-radius:6px">
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Contact</h3>
+          <p style="color:var(--muted);font-size:14px">FIT Secretariat<br>Phone: +92-51-9049-5498<br>Email: <a href="mailto:fit@comsats.edu.pk">fit@comsats.edu.pk</a></p>
+        </div>
+
+      </aside>
+    </div>
+
+    <section id="register" class="card" style="margin-top:18px">
+      <h2>Registration</h2>
+      <p>Register to attend the conference. Registration fees cover lunches, refreshments, and conference kit. If multiple authors attend, each must register separately.</p>
+      <form onsubmit="return handleRegistration(event)">
+        <label>Full name</label>
+        <input type="text" required placeholder="Your full name" id="rname">
+        <label>Email</label>
+        <input type="email" required placeholder="you@example.com" id="remail">
+        <label>Affiliation</label>
+        <input type="text" placeholder="University / Company" id="raff">
+        <label>Registration type</label>
+        <select id="rtype">
+          <option>Regular</option>
+          <option>Student</option>
+          <option>Virtual</option>
+        </select>
+        <button class="btn" type="submit">Submit Registration</button>
+      </form>
+      <p id="rmsg" style="color:green;margin-top:8px;display:none">Thank you — registration saved (demo only).</p>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:18px">
+      <h2>Contact Us</h2>
+      <p>For queries related to submission, registration, and logistics, contact the FIT Secretariat.</p>
+      <form onsubmit="return false">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Email">
+        <textarea rows="4" placeholder="Message"></textarea>
+        <button class="btn" onclick="alert('This is a demo contact form. Replace with a server endpoint.')">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      Developed by IT Center • COMSATS University Islamabad © 2025 FIT 2025
+    </footer>
+  </div>
+
+  <script>
+    function handleRegistration(e){
+      e.preventDefault();
+      const name=document.getElementById('rname').value;
+      const email=document.getElementById('remail').value;
+      const type=document.getElementById('rtype').value;
+      // Demo behaviour: saves data to localStorage and shows message
+      const regs=JSON.parse(localStorage.getItem('fit_regs'||'[]'))||[];
+      regs.push({name,email,type,ts:Date.now()});
+      localStorage.setItem('fit_regs',JSON.stringify(regs));
+      document.getElementById('rmsg').style.display='block';
+      setTimeout(()=>document.getElementById('rmsg').style.display='none',4000);
+      return false;
+    }
+  </script>
+</body>
+</html>
